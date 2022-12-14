@@ -1,8 +1,7 @@
 {
   "name": "@tylermagento/dero_swagger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Deno swagger decoration",
-  "main": "mod.ts",
   "directories": {
     "example": "examples"
   },

@@ -1,7 +1,7 @@
 // @ts-ignore
-import { Handler } from "./deps";
+import { Handler } from "./deps.ts";
 // @ts-ignore
-import { GenHtmlOpts } from "./types";
+import { GenHtmlOpts } from "./types.ts";
 
 const base_lib_swagger = "https://cdn.jsdelivr.net/npm/swagger-ui-dist@3.51.1";
 
