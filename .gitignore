@@ -1,2 +1,4 @@
 .vscode
 dev.ts
+node_modules/
+lib

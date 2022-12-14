@@ -1,0 +1,33 @@
+{
+  "name": "@tylermagento/dero_swagger",
+  "version": "1.0.1",
+  "description": "Deno swagger decoration",
+  "main": "mod.ts",
+  "directories": {
+    "example": "examples"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylermagentovn/denoswagger.git"
+  },
+  "keywords": [
+    "deno",
+    "swagger"
+  ],
+  "author": "Tyler Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylermagentovn/denoswagger/issues"
+  },
+  "homepage": "https://github.com/tylermagentovn/denoswagger#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

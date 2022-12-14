@@ -252,3 +252,7 @@ type TReferenceObject = {
   $ref: string;
   [k: string]: any;
 };
+
+export interface Window {
+  DeroMetadata: any
+}

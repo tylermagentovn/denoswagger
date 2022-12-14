@@ -1,5 +1,10 @@
-import { Metadatav1 } from "./deps.ts";
-import { swaggerUi } from "./swagger_ui.ts";
+// @ts-ignore
+import { Metadatav1 } from "./deps";
+
+// @ts-ignore
+import { swaggerUi } from "./swagger_ui";
+
+// @ts-ignore
 import {
   TApiDoc,
   TOpenApi,
@@ -7,8 +12,8 @@ import {
   TParameterObject,
   TRequestBodyObject,
   TSchemaObject,
-  TTagObject,
-} from "./types.ts";
+  TTagObject
+} from "./types";
 
 function joinProperty(target: any, prop: string, object: Record<string, any>) {
   const metadata = window.DeroMetadata || Metadatav1.storage;

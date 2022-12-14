@@ -1,3 +1,4 @@
+// @ts-ignore
 import { TInfo, TOpenApi, TSecurity, TTagObject } from "./types.ts";
 
 export class DocumentBuilder {
